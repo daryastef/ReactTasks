@@ -14,6 +14,7 @@
     padding: 15px 20px;
     border-radius: 10px;
     height: 70px;
+    position: relative;
 }
 
 .goal-card:hover {
@@ -29,4 +30,20 @@
 .goal-card p {
     font-size: 0.9rem;
     color: #693d3f;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    color: #ff3b30;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: transform 0.2s;
+}
+
+.delete-button:hover {
+    transform: scale(1.2);
 }

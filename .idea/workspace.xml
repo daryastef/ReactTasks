@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e23718c-857a-445b-9d76-af7d784b4dfc" name="Changes" comment="/" />
+    <list default="true" id="4e23718c-857a-445b-9d76-af7d784b4dfc" name="Changes" comment="/">
+      <change beforePath="$PROJECT_DIR$/src/pages/TodoList/GoalList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TodoList/GoalList.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pasha154"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/daryastef/ReactTasks",
+    "accountId": "3836118b-e9c2-4045-8733-a9dc227c1db5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -82,6 +96,7 @@
       <workItem from="1741118972775" duration="39000" />
       <workItem from="1741552505048" duration="1399000" />
       <workItem from="1741616803872" duration="2109000" />
+      <workItem from="1741619096696" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <option name="closed" value="true" />

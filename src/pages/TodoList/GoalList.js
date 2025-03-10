@@ -11,7 +11,10 @@ export default function GoalList() {
 
     const addNewTask = (newTask) => {
         setItems([...items, newTask])
-    }
+    };
+    const deleteTask = (index) => {
+        setItems(items.filter((_, i) => i !== index));
+    };
     return(
         <div className="list-container">
             <TaskForm addTask={addNewTask}/>
@@ -19,6 +22,7 @@ export default function GoalList() {
                 <div key={index} className="goal-card">
                     <h3>{item.title}</h3>
                     <p>{item.description}</p>
+                    <button className="delete-button" onClick={() => deleteTask(index)}>X</button>
                 </div>
             ))}
         </div>
